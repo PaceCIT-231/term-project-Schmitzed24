@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    background-color: #FCFBF4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    margin-bottom: 10px;
+    padding: 4px;
+  }
+  
+  p, a{
+    padding: 10px;
+
+  }
+
+  .item-section {
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item label {
+    width: 100px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  #add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #add-to-cart:hover {
+    background-color: #45a049;
+  }
+  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    right: 1%;
+    top: 15%;
+
+  }
+
+  #img-logo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 125px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+
+  }
+
+
+  #img-main {
+    position: absolute;
+    top: 900px;
+    right: 1200px;
+    height: 40%;
+    width: 40%;   
+
+  }
+
+
+
+   .modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    overflow-y: auto;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  button#close-modal {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button#close-modal:hover {
+    background-color: #e53935;
+  }
+  
+  #modal-errors {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+  }
+
+
+  input[id=fname], [id=lname], [id=state], [id=email], [id=subject], [id=address]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  #contactForm {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+
+  /* Dark Mode Styles */
+
+body.dark-mode {
+  background-color: #333;
+  color: white;
+  a.cta-button {
+    background-color: rgba(90, 158, 207, 0.438);
+  }
+
+  a {
+    background-color: rgba(90, 158, 207, 0.438);
+
+  }
+}
+
+div.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.container.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+
+.contactform.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+button.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+
+button.dark-mode:hover {
+  background-color: #444;
+}
